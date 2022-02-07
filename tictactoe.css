@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    width: 20rem;
+    grid-template-columns: repeat(3,auto);
+}
+
+.box {
+    width: 7rem;
+    height: 7rem;
+    cursor: pointer;
+}
+
+.down {
+    border-bottom: 0.2rem solid black;
+}
+
+.right {
+    border-right: 0.2rem solid black;
+}
